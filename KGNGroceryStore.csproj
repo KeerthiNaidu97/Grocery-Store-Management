@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="assets\eggs.jpg" />
+    <None Remove="assets\menuicon.jpg" />
+    <None Remove="assets\Salt.jpg" />
+    <None Remove="menuicon.jpg" />
+    <None Remove="Salt.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="assets" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="assets\*" />
+  </ItemGroup>
+
+</Project>

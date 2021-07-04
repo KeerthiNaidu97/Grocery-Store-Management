@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<ArrayOfProduct xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Product>
+    <productID>1</productID>
+    <productName>eggs</productName>
+    <price>21</price>
+    <quantity>80</quantity>
+    <expiryDate>2022-01-01T00:00:00</expiryDate>
+    <image>eggs.png</image>
+  </Product>
+  <Product>
+    <productID>6</productID>
+    <productName>Apple</productName>
+    <price>1.75</price>
+    <quantity>63</quantity>
+    <expiryDate>2021-07-07T00:00:00</expiryDate>
+    <image>apple.png</image>
+  </Product>
+  <Product>
+    <productID>7</productID>
+    <productName>Cashews</productName>
+    <price>5.02</price>
+    <quantity>4</quantity>
+    <expiryDate>2021-06-25T00:00:00</expiryDate>
+    <image>cashews.png</image>
+  </Product>
+  <Product>
+    <productID>8</productID>
+    <productName>test</productName>
+    <price>6.75</price>
+    <quantity>67</quantity>
+    <expiryDate>2021-06-03T00:00:00</expiryDate>
+    <image>bread.jpg</image>
+  </Product>
+</ArrayOfProduct>
